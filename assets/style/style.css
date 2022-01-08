@@ -1,0 +1,11 @@
+.container {box-sizing: border-box;
+margin: auto;
+font-family: 'Caveat', cursive;
+font-size: x-large;
+}
+
+small + small {display: none;}
+
+input:valid + small {display: none;}
+
+input:valid + small + small {display: inline;}
